@@ -2,7 +2,7 @@ import collections
 import click
 import evdev as evd
 
-HP_ELAN_PEN = "ELAN2514:00 04F3:280E"
+HP_ELAN_PEN = "ELAN2514:00 04F3:2C48"
 Device = collections.namedtuple('Device', ('id', 'name', 'evdev'))
 
 
